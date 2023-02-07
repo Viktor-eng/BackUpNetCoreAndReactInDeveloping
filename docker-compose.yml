@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  databaseapi:
+    image: databaseapi:latest
+    container_name: databaseapi
+    build:
+      context: .
+      dockerfile: DatabaseApi/Dockerfile
+    ports:
+        - 5105:80

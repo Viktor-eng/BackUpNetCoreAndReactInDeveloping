@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataBase", "DataBase\DataBase.csproj", "{5733BB16-13AD-4B23-A693-7D74D51A031B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseApi", "DatabaseApi\DatabaseApi.csproj", "{2474DE6F-A9AE-488C-BDED-2021BCBA3F06}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{020248B4-C6CF-4008-8D99-545983642468}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5733BB16-13AD-4B23-A693-7D74D51A031B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5733BB16-13AD-4B23-A693-7D74D51A031B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5733BB16-13AD-4B23-A693-7D74D51A031B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5733BB16-13AD-4B23-A693-7D74D51A031B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2474DE6F-A9AE-488C-BDED-2021BCBA3F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2474DE6F-A9AE-488C-BDED-2021BCBA3F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2474DE6F-A9AE-488C-BDED-2021BCBA3F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2474DE6F-A9AE-488C-BDED-2021BCBA3F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020248B4-C6CF-4008-8D99-545983642468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020248B4-C6CF-4008-8D99-545983642468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020248B4-C6CF-4008-8D99-545983642468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020248B4-C6CF-4008-8D99-545983642468}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92668876-8D18-49FB-8A18-FDFE863AA9F3}
+	EndGlobalSection
+EndGlobal
